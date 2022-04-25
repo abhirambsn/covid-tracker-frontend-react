@@ -1,3 +1,11 @@
+# Covid Tracker Frontend
+
+**By Abhiram BSN**
+**Tech Stack: MERN Stack**
+# Deployment Link
+
+**Deployed URL: []()**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

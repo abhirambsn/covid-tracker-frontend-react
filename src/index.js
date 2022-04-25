@@ -8,7 +8,7 @@ import { RecoilRoot } from "recoil";
 import "./styles/index.css";
 
 const apolloClient = new ApolloClient({
-  uri: "http://localhost:5000/",
+  uri: "https://covid-tracker-ab.herokuapp.com/",
   cache: new InMemoryCache(),
 });
 
