@@ -4,7 +4,7 @@
 **Tech Stack: MERN Stack**
 # Deployment Link
 
-**Deployed URL: []()**
+**Deployed URL: [https://covid-tracker-abhiram.netlify.app/](https://covid-tracker-abhiram.netlify.app/)**
 
 # Getting Started with Create React App
 
