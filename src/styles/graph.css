@@ -1,0 +1,24 @@
+.datePicker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.graph {
+    border: 1px solid black;
+    width: 75%;
+}
+
+@media only screen and (max-width: 755px) {
+    .graph {
+        width: 100%;
+    }
+}

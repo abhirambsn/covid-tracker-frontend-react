@@ -1,0 +1,72 @@
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.table thead tr {
+    background-color: rgb(199, 21, 133);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid rgb(199, 21, 133);
+}
+
+.table tbody tr:nth-last-of-type(even) {
+    background-color: rgb(240, 151, 207);
+}
+
+.table tbody tr:hover {
+    cursor: pointer;
+    background-color: rgb(238, 176, 215);
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.page-item {
+    border: 1px solid rgb(199, 21, 133);
+}
+
+.page-link {
+    padding: 10px;
+}
+
+.page-item:hover {
+    background-color: rgb(199, 21, 133);
+    color: white;
+    cursor: pointer;
+}
+
+li .page-item .active {
+    background-color: rgb(199, 21, 133);
+    color: white;
+}
+
+.search-form {
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-input:focus {
+    outline: none;
+}

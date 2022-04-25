@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    text-align: left;
+    border-bottom: 1px dotted white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card-text {
+    padding: 25px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card-red {
+    background-color: rgb(219, 81, 81);
+}
+
+.card-blue {
+    background-color: rgb(55, 89, 239);
+}
+
+.card-green {
+    background-color: rgb(47, 180, 47);
+}
+
+@media only screen and (max-width: 755px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
